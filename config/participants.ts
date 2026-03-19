@@ -38,7 +38,7 @@ export const ORGANIZERS: Organizer[] = [
 
 // ── AWS Supporters (Gamemasters & Community Team) ────────────────────────────
 export const AWS_SUPPORTERS: Organizer[] = [
-  { name: "Arnaud", role: "Sr. Developer Advocate, AWS",        country: "Gamemaster",              flag: "🎮", face: "assets/faces/arnaud.jpg", type: "aws" },
+  { name: "Test", role: "Sr. Developer Advocate, AWS",        country: "Gamemaster",              flag: "🎮", face: "assets/faces/arnaud.jpg", type: "aws" },
   { name: "Loïc",   role: "Sr. Technical Account Manager, AWS", country: "Gamemaster",              flag: "🎮", face: "assets/faces/loic.jpg",   type: "aws" },
   { name: "Uliana", role: "Community Manager, AWS",             country: "DACH, CEE, CEAR & MENAT", flag: "🌍", face: "assets/faces/uliana.jpg", type: "aws" },
   { name: "Natalia",role: "DevEx Community Manager, AWS",       country: "EMEA / Europe South",     flag: "🌍", face: "assets/faces/natalia.jpg",type: "aws" },
