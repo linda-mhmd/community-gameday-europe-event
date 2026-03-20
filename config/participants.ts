@@ -11,7 +11,8 @@
 
 // ── Organizer Interface ──
 export interface Organizer {
-  name: string;          // Display name — used for lookups (must match STREAM_HOST_NAME etc.) and shown on screen
+  name: string;          // Short name — used for lookups (must match STREAM_HOST_NAME etc.) and shown on screen
+  fullName?: string;     // Optional full name — only needed for the host's intro card (e.g., "Linda Mohamed")
   role: string;          // User group name or job title
   country: string;       // Country name (or region for AWS supporters, or "Gamemaster")
   city?: string;         // City shown on cards (e.g., "Vienna, Austria")
@@ -35,7 +36,7 @@ export const ORGANIZERS: Organizer[] = [
     name: "Marcel", role: "AWS User Group Münsterland", country: "Germany", city: "Münster, Germany", flag: "🇩🇪", face: "assets/faces/marcel.jpg", type: "community",
   },
   {
-    name: "Linda Mohamed", role: "AWS User Group Vienna", country: "Austria", city: "Vienna, Austria", flag: "🇦🇹", face: "assets/faces/linda.jpg", type: "community",
+    name: "Linda", fullName: "Linda Mohamed", role: "AWS User Group Vienna", country: "Austria", city: "Vienna, Austria", flag: "🇦🇹", face: "assets/faces/linda.jpg", type: "community",
     title: "AWS Community Hero",
     subtitle: "AWS User Group Vienna · Förderverein AWS Community DACH",
     bio: [
